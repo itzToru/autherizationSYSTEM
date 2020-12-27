@@ -9,7 +9,6 @@ User users[] = {};
 
 int regInSys(string loginReg, string passReg){
     ofstream Reg;
-    users
     Reg.open("D:\\C++Text\\Text.txt", ios::app);
     if(Reg.is_open()){
         Reg << loginReg << endl;
